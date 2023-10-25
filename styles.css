@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Oswald&family=Ultra&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5d3ab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.testimonials {
+  text-align: center;
+  color: #171b1b;
+  font-size: 16px;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: 3px;
+  word-wrap: break-word;
+}
+
+.what-people-say {
+  text-align: center;
+  color: #171b1b;
+  font-size: 56px;
+  font-family: Ultra, sans-serif;
+  font-weight: 400;
+  line-height: 64px;
+  word-wrap: break-word;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.rectangle {
+  width: 384px;
+  height: 368px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rectangle:nth-child(2) {
+  width: 402px;
+  height: 400px;
+  background: #9ead8d;
+  margin-top: -16px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star-icon {
+  width: 120px;
+  height: 24px;
+  margin-right: 100px;
+}
+
+.oval-icon {
+  width: 102px;
+  height: 102px;
+}
+
+.review-title {
+  color: #171b1b;
+  font-size: 24px;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  word-wrap: break-word;
+  text-align: left;
+  padding-right: 210px;
+}
+
+.review-text {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  word-wrap: break-word;
+  padding: 20px 30px;
+  text-align: left;
+  height: 102px;
+  width: 306px;
+}
+
+.pin {
+  width: 76px;
+  height: 16px;
+  margin-top: 50px;
+}
