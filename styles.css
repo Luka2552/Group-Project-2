@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Oswald&family=Ultra&display=swap");
-
+body{
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #f5d3ab;
 }
+main{
+ margin: 8px;
+
+}
+
 .page-container {
   margin: 0;
   padding: 0;
@@ -265,32 +273,71 @@ body {
   line-height: normal;
   text-transform: uppercase;
 }
-
-*{
-
-}
 /* footer */
 footer{
   background-color: black;
   color: #FFFF;
-
 }
 footer h1{
   font-family: ultra;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
 }
-.upperline{
+footer h2{
+  font-family: oswald;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1875rem;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0;
+}
+footer ul li{
+  padding-top: 0.5rem;
+}
+footer ul li a{
+  font-family: DM sans;
+  color: #FFFF;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.upperline {
   display: flex;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 2rem 0 4rem 0;
   margin: 0 auto;
-  max-width: 1920px;
-
+  max-width: 1170px;
+  width:100%;
 }
-
-.footer-nav-menu{
+.line{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+.line-div{
+  background-color: #FFFF;
+  height: 1px;
+  max-width: 1170px;
+  width:100%;
+  opacity: 10%;
+}
+.underline{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  width:100%;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+.underline p{
+    font-family: dm sans;
+    font-size: 1rem;
+}
+.underline .different-p{
+  opacity: 50%;
+}
+.left-side-terms{
+  display: flex;    
+  gap: 4rem;
 }
