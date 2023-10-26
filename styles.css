@@ -1,16 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Oswald&family=Ultra&display=swap");
 
-body {
-  margin: 0;
-  padding: 0;
+body{
   background-color: #f5d3ab;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
-
 .testimonials {
   text-align: center;
   color: #171b1b;
@@ -103,4 +95,163 @@ body {
   width: 76px;
   height: 16px;
   margin-top: 50px;
+}
+.section2{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.box{
+  margin-top: 50px;
+  background-color: white;
+  width: 470px;
+  height: 600px;
+  margin-left: 135px;
+}
+.contactus {
+  margin-top: 30px;
+  margin-left: -500px;
+}
+.contactus p{
+  color: #171B1B;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.contactus h2{
+  color: #171B1B;
+  font-family: Ultra;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.items{
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  margin-top: 30px;
+}
+.items1{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.address-icon{
+  position: relative;
+  width: 100%;
+  height: 48pc;
+  max-width: 48px;
+  margin-top: -350px;
+  margin-left: 700px;
+}
+.circle{
+  position: absolute;
+}
+.address{
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+.address-text{
+  margin-top: -410px;
+}
+.number{
+  color: #171B1B;
+  font-family: first;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.icon-text{
+  color: #171B1B;
+  font-family: first;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.full-address{
+  color: rgba(51, 51, 51, 0.50);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 150px;
+  width: 100%;
+  height: 64px;
+}
+.items2{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: -350px;
+}
+.phone-icon{
+  position: relative;
+  max-width: 48px;
+  width: 100%;
+  height: 48pc;
+  
+}
+.phone{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+
+}
+.circle2{
+  position: absolute;
+}
+.number2{
+  color: #171B1B;
+  font-family: first;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: -45px\;
+}
+.phone-text{
+  color: #171B1B;
+  font-family: first;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.phone-text2{
+  color: #171B1B;
+  font-family: third;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.button{
+  position: absolute;
+  max-width: 170px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid black;
+  background-color: #f8d4ac;
+  margin-top: 240px;
+  margin-left: -100px;
+}
+.button-text{
+  color: #171B1B;
+  padding: 14px 28px;
+  font-family: first;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
