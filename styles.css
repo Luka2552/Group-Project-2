@@ -3,6 +3,11 @@
 body{
   background-color: #f5d3ab;
 }
+.page-container {
+  margin: 0;
+  padding: 0;
+  background-color: #f5d3ab;
+}
 .testimonials {
   text-align: center;
   color: #171b1b;
